@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/small_padding">
+
+            <LinearLayout
+                style="@style/SettingsList"
+                android:backgroundTint="#83E387">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Total Data"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_size"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/tvDataCount"
+                        style="@style/SetingView"
+                        android:textColor="#F44336"
+                        tools:text="200" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/ibDeleteCount"
+                    style="@style/SetingButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SettingsList"
+                android:backgroundTint="#83E387">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="List"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_size"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/tvDataList"
+                        style="@style/SetingView"
+                        android:textColor="#F44336"
+                        tools:text="200" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/ibDeleteList"
+                    style="@style/SetingButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SettingsList"
+                android:backgroundTint="#83E387">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pin"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_size"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/tvDataPin"
+                        style="@style/SetingView"
+                        android:textColor="#F44336"
+                        tools:text="200" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/ibDeletePin"
+                    style="@style/SetingButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SettingsList"
+                android:backgroundTint="#83E387">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Archive"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_size"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/tvDataArchive"
+                        style="@style/SetingView"
+                        android:textColor="#F44336"
+                        tools:text="200" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/ibDeleteArchive"
+                    style="@style/SetingButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SettingsList"
+                android:backgroundTint="#83E387">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Trash"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_size"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/tvDataTrash"
+                        style="@style/SetingView"
+                        android:textColor="#F44336"
+                        tools:text="200" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/ibDeleteTrash"
+                    style="@style/SetingButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

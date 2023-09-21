@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nuryadincjr.todolist">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image"
+        android:label="A To Do"
+        android:roundIcon="@drawable/image"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light">
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Register"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ToDoList.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ActionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:exported="false"
+            android:label="Setting" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:exported="false"
+            android:label="Information" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ToDoList.NoActionBar" />
+    </application>
+
+</manifest>

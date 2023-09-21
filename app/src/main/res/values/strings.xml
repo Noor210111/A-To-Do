@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="str_task_completed">Task Completed</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="navigation_open">Open navigation drawer</string>
+    <string name="navigation_close">Close navigation drawer</string>
+    <string name="str_add_task">Add Task</string>
+    <string name="str_lorem">Lorem Ipsum is fdsf dsfsimply dummy textfdsf dsfsimply dummy textfdsf dsfsimply dummy textfdsf dsfsimply dummy textfdsf dsfsimply dummy textfdsf dsfsimply dummy textfdsf dsfsimply dummy textfdsf dsfsimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="str_team_member_2"> </string>
+    <string name="str_mitra">PUST Campus</string>
+    <string name="str_unpin">Unpinned</string>
+    <string name="str_unarchip">Unarchived</string>
+    <string name="str_kontributor">Contrubutor:</string>
+    <string name="str_kon1">NOOR</string>
+    <string name="str_univ1">PUST</string>
+    <string name="str_portofolio1">A M Noor</string>
+    <string name="str_portofoliourl1">https://www.facebook.com/noor.cse</string>
+    <string name="str_kon2">Only me</string>
+    <string name="str_univ2">PUST</string>
+    <string name="str_portofolio2">Mugdho</string>
+    <string name="str_portofoliourl2">https://www.facebook.com/noor.cse</string>
+    <string name="str_search">Search</string>
+    <string name="str_isedit">Unable to edit in trash</string>
+    <string name="str_view">View</string>
+    <string name="str_search_hint">Type here to search</string>
+    <string name="str_restore">Restore</string>
+    <string name="str_message_save">Saved</string>
+    <string name="str_message_change">Updated</string>
+    <string name="str_delete_fix">Delete permanently</string>
+    <string name="str_format">Delete all</string>
+    <string name="str_pin">Pin</string>
+    <string name="str_archip">Archived</string>
+    <string name="str_archip_menu">Archive</string>
+    <string name="str_delete">Move to Trash</string>
+    <string name="str_share">Share</string>
+    <string name="str_home">My To Do List</string>
+    <string name="str_tools">Tools</string>
+    <string name="str_trash_menu">Trash</string>
+    <string name="str_other">Other</string>
+    <string name="str_settings_menu">Setting</string>
+    <string name="str_about_menu">Information</string>
+    <string name="str_tagline">Create your to do list</string>
+    <string name="str_contributors">By A M Noor</string>
+    <string name="str_pin_lable">Pin</string>
+    <string name="str_add">Add</string>
+    <string name="str_jumlah_data">Data</string>
+    <string name="str_jumlah_list">List</string>
+    <string name="str_jumlah_pin">Pin</string>
+    <string name="str_jumlah_archive">Archive</string>
+    <string name="str_jumlah_trash">Trash</string>
+    <string name="str_title">Title</string>
+    <string name="str_description">Description</string>
+    <string name="files">Files</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="loginn">Login</string>
+    <string name="register">Register</string>
+    <string name="registerr">Register</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="click_to_loginn">Click to Login</string>
+    <string name="click_to_loginnn">Click to login</string>
+    <string name="click_to_registerr">Click to Register</string>
+    <string name="click_to_logiin">Click to Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="click_to_regiister">Click to Register</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+</resources>
