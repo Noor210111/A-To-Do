@@ -1,2 +1,1 @@
-//getPortofoloi(binding.tvPortofolo1, getString(R.string.str_portofoliourl1));
-        //getPortofoloi(binding.tvPortofolo1, getString(R.string.str_portofoliourl2));
+
